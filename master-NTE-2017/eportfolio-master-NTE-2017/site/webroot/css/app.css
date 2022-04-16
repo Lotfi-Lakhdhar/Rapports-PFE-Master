@@ -1,0 +1,30 @@
+.boutonf {
+	padding:6px;
+	font:Bold 13px Arial;
+	background:#4C67A1;
+	color:#fff;
+	
+	border-radius:2px;
+	border:none;
+}
+.boutont {
+	padding:6px;
+	font:Bold 13px Arial;
+	background:#55ACEE;
+	color:#fff;
+	
+	border-radius:2px;
+	border:none;
+}
+
+.boutong {
+	padding:6px;
+	font:Bold 13px Arial;
+	background:#D23F31;
+	color:#fff;
+	
+	border-radius:2px;
+	border:none;
+}
+
+
