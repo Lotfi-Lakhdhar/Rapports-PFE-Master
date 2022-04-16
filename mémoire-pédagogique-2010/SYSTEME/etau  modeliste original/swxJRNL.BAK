@@ -1,0 +1,17 @@
+' ******************************************************************************
+' swxJRNL.swj - journal recorded on 03/22/10 by Administrateur
+' *****************************************************************************
+Dim swApp As Object
+Dim Part As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long
+Dim Annotation As Object
+Dim Gtol As Object
+Dim DatumTag As Object
+Dim FeatureData As Object
+Dim Feature As Object
+Dim Component As Object
+Sub main()
+
+Set swApp = Application.SldWorks
+

@@ -1,0 +1,34 @@
+' ******************************************************************************
+' swxJRNL.swj - journal recorded on 03/24/10 by Administrateur
+' *****************************************************************************
+Dim swApp As Object
+Dim Part As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long
+Dim Annotation As Object
+Dim Gtol As Object
+Dim DatumTag As Object
+Dim FeatureData As Object
+Dim Feature As Object
+Dim Component As Object
+Sub main()
+
+Set swApp = Application.SldWorks
+
+Set Part = swApp.OpenDoc4 ("D:\My work\lotfi lakhdhar\cours 9 eme collége technique\cours de lakhdhar\télèchargement\etau  modeliste\Bague de renfort.SLDPRT", 1, 0, "", longstatus)
+' MSGBOX
+' Ne peut pas ouvrir D:\My work\lotfi lakhdhar\cours 9 eme collége technique\cours de lakhdhar\télèchargement\etau  modeliste\Bague de renfort.SLDPRT.
+' Version future
+
+Set Part = swApp.OpenDoc4 ("D:\My work\lotfi lakhdhar\cours 9 eme collége technique\cours de lakhdhar\télèchargement\etau  modeliste\ecrou-HM-M12.SLDPRT", 1, 0, "", longstatus)
+' MSGBOX
+' Ne peut pas ouvrir D:\My work\lotfi lakhdhar\cours 9 eme collége technique\cours de lakhdhar\télèchargement\etau  modeliste\ecrou-HM-M12.SLDPRT.
+' Version future
+
+Set Part = swApp.OpenDoc4 ("D:\My work\lotfi lakhdhar\cours 9 eme collége technique\cours de lakhdhar\télèchargement\etau  modeliste\garniture-mors-fixe.SLDPRT", 1, 0, "", longstatus)
+' MSGBOX
+' Ne peut pas ouvrir D:\My work\lotfi lakhdhar\cours 9 eme collége technique\cours de lakhdhar\télèchargement\etau  modeliste\garniture-mors-fixe.SLDPRT.
+' Version future
+
+swApp.ExitApp
+End Sub
